@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = "mparmett@wharton.upenn.edu"
   gem.description   = %q{Ruby wrapper for the Penn Study Spaces API}
   gem.summary       = %q{Ruby wrapper for the Penn Study Spaces API}
-  gem.homepage      = "http://github.com/mattparmett/pennstudyspaces"
+  gem.homepage      = "http://github.com/mattparmett/pennstudyspaces.rb"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
